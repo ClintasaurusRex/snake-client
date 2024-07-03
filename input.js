@@ -14,8 +14,8 @@ const handleUserInput = (key) => {
     conn.write("Move: right");
   } else if (key === "u") {
     conn.write("Say: Stupendous");
-  } else if (key === "u") {
-    conn.write("Say: Stupendous");
+  } else if (key === "p") {
+    conn.write("Say: Gotcha");
   } else if (key === "i") {
     conn.write("Say: Bawitdaba");
   } else if (key === "o") {
