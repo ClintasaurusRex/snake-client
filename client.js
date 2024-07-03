@@ -26,6 +26,9 @@ const connect = function() {
     //   conn.write("Move: right");
     // }, 3000);
 
+    // setup interface to handle user input from stdin
+
+  
   });
 
 
