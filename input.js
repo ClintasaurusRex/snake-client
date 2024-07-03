@@ -12,6 +12,14 @@ const handleUserInput = (key) => {
     conn.write("Move: down");
   } else  if (key === 'd') {
     conn.write("Move: right");
+  } else if (key === "u") {
+    conn.write("Say: Stupendous");
+  } else if (key === "u") {
+    conn.write("Say: Stupendous");
+  } else if (key === "i") {
+    conn.write("Say: Bawitdaba");
+  } else if (key === "o") {
+    conn.write("Say: IMMA SLITHERY SNAKE");
   }
 };
 
