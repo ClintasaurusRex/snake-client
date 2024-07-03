@@ -13,8 +13,20 @@ const connect = function() {
     console.log("connected to game server server!");
 
     conn.write("Name: CDA");
-  });
 
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // }, 1000);
+
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // }, 2000);
+
+    // setTimeout(() => {
+    //   conn.write("Move: right");
+    // }, 3000);
+
+  });
 
 
   conn.on("data", (data) => {
