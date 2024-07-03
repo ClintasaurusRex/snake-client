@@ -10,8 +10,12 @@ const connect = function() {
   conn.setEncoding('utf-8');
 
   conn.on("connect", () => {
-    console.log("connected to server!");
+    console.log("connected to game server server!");
+
+    conn.write("Name: CDA");
   });
+
+
 
   conn.on("data", (data) => {
     console.log("server says: ", data);
